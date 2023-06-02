@@ -46,6 +46,8 @@ const Mainpage = () => {
             bernama <span className="text-highlight">Ade Norma,</span> Deswin
             manggil ibunya pake sebutan{" "}
             <span className="text-highlight">Mama.</span> Deswin sekolah SD di
+            SIT Insantama Cilegon terus lulus tahun 2016, dan lanjut ke jenjang
+            SMP di SMPN 1 Cilegon
           </p>
         </div>
       </div>
