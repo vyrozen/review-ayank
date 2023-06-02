@@ -1,7 +1,14 @@
 import { Fade } from "react-awesome-reveal";
 import CharName from "./CharName";
+import { useState } from "react";
+import SpecializationBar from "./SpecializationBar";
 
 const Mainpage = () => {
+  const TestButton = () => {
+    updatePercent([{ percentage: "89%" }]);
+  };
+
+  const [progressPercentage, updatePercent] = useState([{ percentage: "0%" }]);
   return (
     <div className="container ip678p:my-3 m-auto my-9 w-10/12 h-5/6 rounded-2xl ">
       <div className="w-fit mx-auto select-none">
@@ -91,10 +98,7 @@ const Mainpage = () => {
         <Fade>
           <div className="px-6 py-5">
             <h1 className="font-semibold text-lg">Specialization</h1>
-            <div className="py-2 text-base">
-              Makeup
-              <div className="w-full h-2.5 bg-pink-400/30 rounded-full"></div>
-            </div>
+            <SpecializationBar />
           </div>
         </Fade>
       </div>
