@@ -1,0 +1,11 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* * {
+  @apply border border-red-500;
+} */
+
+.text-highlight {
+  @apply font-mono bg-rose-300/50 backdrop-blur rounded px-3;
+}
