@@ -47,7 +47,10 @@ const Mainpage = () => {
             manggil ibunya pake sebutan{" "}
             <span className="text-highlight">Mama.</span> Deswin sekolah SD di
             SIT Insantama Cilegon terus lulus tahun 2016, dan lanjut ke jenjang
-            SMP di SMPN 1 Cilegon
+            SMP di SMPN 1 Cilegon dan lulus tahun 2020, Deswin abis itu lanjut
+            jenjang pendidikannya di SMAN 1 Kota Serang, dan baru lulus pada
+            tahun ini 2023. Angkatan kita dikenal sebagai angkatan COVID karena
+            kami sekolah di era pandemi dari tahun 2019 sampe akhir tahun 2021.
           </p>
         </div>
       </div>
