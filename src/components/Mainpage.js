@@ -30,7 +30,7 @@ const Mainpage = () => {
         <Fade>
           <div className="px-6 pb-3 text-black">
             <h1 className="font-semibold text-lg">Kenalin cewek gwe</h1>
-            <p className="text-slate-600 text-justify">
+            {/* <p className="text-slate-600 text-justify">
               Namanya{" "}
               <span className="font-semibold">
                 Deswin Indria Cahya Ramadhani
@@ -80,6 +80,27 @@ const Mainpage = () => {
                 MUA
               </a>
               . Serius keren banget cewek gwe, very proud of you Mbak Deswin!
+            </p> */}
+            <p>
+              Officia culpa voluptate quis laboris ea anim quis enim laboris
+              nisi. Pariatur fugiat mollit ad qui commodo non aute nulla sunt ad
+              sit ea consectetur nisi. Et officia non ipsum aliquip do excepteur
+              reprehenderit deserunt irure laborum. Ad commodo deserunt proident
+              do eiusmod. Ut proident veniam cillum id ipsum aliqua incididunt
+              Lorem sint. Exercitation commodo eiusmod aute Lorem id occaecat
+              consequat veniam irure dolor et eu. Ex aliqua eiusmod laboris
+              fugiat labore deserunt pariatur sint. Ex ea velit nulla ad amet
+              magna cillum consectetur tempor eiusmod cupidatat proident et.
+              Aliquip aliquip irure sunt anim minim veniam qui est. Do consequat
+              culpa in nostrud labore enim sit do officia voluptate irure.
+              Officia dolor dolor amet do ea ad exercitation excepteur do aute
+              occaecat incididunt nulla et. Aliquip nostrud laborum consectetur
+              tempor ullamco est sint excepteur et magna est commodo anim ut.
+              Cupidatat laborum sunt ipsum exercitation incididunt eiusmod elit
+              labore ea fugiat id nulla laboris excepteur. In adipisicing sit
+              irure ex mollit enim enim fugiat tempor dolor. Do laborum duis
+              ipsum dolore qui qui occaecat irure sit anim. Labore esse
+              cupidatat sit reprehenderit commodo do nostrud.
             </p>
             {/* <hr className="my-10 border-t border-rose-200 shadow"></hr> */}
           </div>
