@@ -20,7 +20,7 @@ const Footer = () => {
   ];
   return (
     <>
-      <div className=" w-full mt-3">
+      <div className=" w-full mt-3 ">
         <div className="flex max-w-sm w-2/4 mx-auto justify-evenly items-center ">
           {FooterIcons.map((IconsValue, key) => (
             <div className="w-[18px] h-[18px]" key={key}>
