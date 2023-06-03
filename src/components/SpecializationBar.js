@@ -56,7 +56,7 @@ const SpecializationBar = () => {
                   </span>
                 </div>
 
-                <div className="w-full h-2.5 mt-1 bg-pink-400/30 rounded-full md:overflow-hidden">
+                <div className="w-full h-2.5 mt-1 bg-pink-400/30 rounded-full overflow-hidden">
                   <div
                     className={`h-full duration-[2000ms] bg-gradient-to-r ${
                       progress[Category.division] || "w-[0%]"

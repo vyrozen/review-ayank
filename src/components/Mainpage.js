@@ -3,6 +3,7 @@ import { Reveal } from "react-awesome-reveal";
 import CharName from "./CharName";
 
 import SpecializationBar from "./SpecializationBar";
+import ShowcaseGallery from "./ShowcaseGallery";
 
 const Mainpage = () => {
   return (
@@ -20,9 +21,9 @@ const Mainpage = () => {
       </div>
 
       <div className="w-full h-auto py-5 overflow-hidden px-5">
-        <div className="w-11/12 mb-9 h-96 ip678p:h-[30rem] md:h-[54rem] mx-auto rounded-full overflow-hidden shadow-xl bg-cover shadow-gray-100 border bg-[url(images/main-char-img.jpg)] transition-all duration-700 ease-in-out hover:bg-[url(images/main-char-hover.jpg)]"></div>
+        <div className="w-11/12 mb-9 h-96 ip678p:h-[30rem] md:h-[54rem] mx-auto rounded-full overflow-hidden drop-shadow-xl bg-cover border bg-[url(images/main-char-img.jpg)] transition-all duration-700 ease-in-out hover:bg-[url(images/main-char-hover.jpg)]"></div>
         {/* <hr></hr> */}
-        <Fade triggerOnce>
+        <Fade>
           <div className="px-6 pb-3 text-black">
             <h1 className="font-semibold text-lg">Kenalin cewek gwe</h1>
             <p className="text-slate-600 text-justify">
@@ -80,7 +81,7 @@ const Mainpage = () => {
           </div>
         </Fade>
 
-        <Fade triggerOnce>
+        <Fade>
           <div className="px-6 py-5">
             <h1 className="font-semibold text-lg ">Specialization</h1>
             <SpecializationBar />
@@ -88,11 +89,9 @@ const Mainpage = () => {
         </Fade>
 
         <Fade>
-          <div className="container px-6 py-5 border-2">
+          <div className="container px-6 py-5">
             <h1 className="font-semibold text-lg">Showcase</h1>
-            <div className="container">
-              <div className="w-full h-96  bg-gradient-to-tr from-rose-300/30 to-rose-300/50 my-5 rounded-xl shadow-xl"></div>
-            </div>
+            <ShowcaseGallery />
           </div>
         </Fade>
       </div>
