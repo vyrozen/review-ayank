@@ -1,16 +1,12 @@
 import { Fade } from "react-awesome-reveal";
+import { Reveal } from "react-awesome-reveal";
 import CharName from "./CharName";
-import { useState } from "react";
+
 import SpecializationBar from "./SpecializationBar";
 
 const Mainpage = () => {
-  const TestButton = () => {
-    updatePercent([{ percentage: "89%" }]);
-  };
-
-  const [progressPercentage, updatePercent] = useState([{ percentage: "0%" }]);
   return (
-    <div className="container ip678p:my-3 m-auto my-9 w-10/12 h-5/6 rounded-2xl ">
+    <div className="container ip678p:my-3 m-auto my-9 w-10/12 h-auto rounded-2xl ">
       <div className="w-fit mx-auto select-none">
         <h1 className="font-inter text-5xl font-bold py-5 text-center selection:bg-none">
           Review{" "}
@@ -24,18 +20,7 @@ const Mainpage = () => {
       </div>
 
       <div className="w-full h-auto py-5">
-        <div className="w-11/12 mb-9 ip678p:h-[30rem] md:h-[54rem] mx-auto rounded-full overflow-hidden shadow-xl bg-cover shadow-gray-100 border bg-[url(images/main-char-img.jpg)] transition-all duration-700 ease-in-out hover:bg-[url(images/main-char-hover.jpg)]">
-          {/* <img
-            src={CharImgHover}
-            alt="Mbak Deswin lagi poto studio"
-            className="hidden"
-          ></img>
-          <img
-            src={CharImg}
-            alt="Mbak Deswin lagi poto studio"
-            className="hidden "
-          ></img> */}
-        </div>
+        <div className="w-11/12 mb-9 ip678p:h-[30rem] md:h-[54rem] mx-auto rounded-full overflow-hidden shadow-xl bg-cover shadow-gray-100 border bg-[url(images/main-char-img.jpg)] transition-all duration-700 ease-in-out hover:bg-[url(images/main-char-hover.jpg)]"></div>
         {/* <hr></hr> */}
         <Fade>
           <div className="px-6 pb-3 text-black">
@@ -95,9 +80,9 @@ const Mainpage = () => {
           </div>
         </Fade>
 
-        <Fade>
-          <div className="px-6 py-5">
-            <h1 className="font-semibold text-lg">Specialization</h1>
+        <Fade triggerOnce cascade>
+          <div className="px-6 py-5 ">
+            <h1 className="font-semibold text-lg ">Specialization</h1>
             <SpecializationBar />
           </div>
         </Fade>
