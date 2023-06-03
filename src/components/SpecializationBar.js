@@ -3,7 +3,7 @@ import { useState, useEffect } from "react";
 import { InView } from "react-intersection-observer";
 
 const SpecializationBar = () => {
-  const specializationCategory = [
+  const [specializationCategory, setSpecializationCategory] = useState([
     { division: "Makeup", percentage: "92%", classPercent: "w-[92%]" },
     { division: "Appearance", percentage: "100%", classPercent: "w-[100%]" },
     { division: "Speech", percentage: "93%", classPercent: "w-[93%]" },
@@ -13,7 +13,7 @@ const SpecializationBar = () => {
       percentage: "999%",
       classPercent: "ip678p:w-[999px] md:w-[9999px]",
     },
-  ];
+  ]);
 
   const [showDivisionName, setShowDivisionName] = useState(false);
   const [progress, setProgress] = useState({});
