@@ -1,13 +1,17 @@
 import { Fade } from "react-awesome-reveal";
-import { Reveal } from "react-awesome-reveal";
 import CharName from "./CharName";
-
 import SpecializationBar from "./SpecializationBar";
 import ShowcaseGallery from "./ShowcaseGallery";
+import MainCharHover from "../images/main-char-hover.jpg";
+import MainChar from "../images/main-char-img.jpg";
 
 const Mainpage = () => {
   return (
     <div className="container ip678p:my-3 m-auto my-9 h-5/6 rounded-2xl">
+      <div className="hidden" id="Preloader">
+        <img src={MainChar} />
+        <img src={MainCharHover} />
+      </div>
       <div className="w-fit mx-auto select-none">
         <h1 className="font-inter text-5xl font-bold py-5 text-center selection:bg-none">
           Review{" "}

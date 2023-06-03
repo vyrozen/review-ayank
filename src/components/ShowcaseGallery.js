@@ -29,7 +29,10 @@ const ShowcaseGallery = () => {
     <div className="container">
       <Fade>
         {GalleryList.map((cardOrder, key) => (
-          <div className="flex flex-col w-full h-96 bg-gradient-to-tr from-rose-300/40 to-rose-300/90 my-5 pb-1 rounded-xl shadow-xl">
+          <div
+            key={key}
+            className="flex flex-col w-full h-96 bg-gradient-to-tr from-rose-300/40 to-rose-300/90 my-5 pb-1 rounded-xl shadow-xl"
+          >
             <div className="w-10/12 h-[200px] mx-auto mt-6 bg-gradient-to-tr from-rose-300/60 to-rose-300/30 rounded-lg overflow-hidden drop-shadow-xl">
               <img
                 src={cardOrder.src}
