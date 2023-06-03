@@ -8,7 +8,11 @@ const SpecializationBar = () => {
     { division: "Appearance", percentage: "100%", classPercent: "w-[100%]" },
     { division: "Speech", percentage: "93%", classPercent: "w-[93%]" },
     { division: "Social", percentage: "89%", classPercent: "w-[89%]" },
-    { division: "Cuteness", percentage: "999%", classPercent: "w-[999999px]" },
+    {
+      division: "Cuteness",
+      percentage: "999%",
+      classPercent: "ip678p:w-[999px] md:w-[9999px]",
+    },
   ]);
 
   const [showDivisionName, setShowDivisionName] = useState(false);
