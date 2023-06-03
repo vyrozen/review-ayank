@@ -8,7 +8,7 @@ const SpecializationBar = () => {
     { division: "Appearance", percentage: "100%", classPercent: "w-[100%]" },
     { division: "Speech", percentage: "93%", classPercent: "w-[93%]" },
     { division: "Social", percentage: "89%", classPercent: "w-[89%]" },
-    { division: "Cuteness", percentage: "999%", classPercent: "w-[9999px]" },
+    { division: "Cuteness", percentage: "999%", classPercent: "w-[999999px]" },
   ]);
 
   const [showDivisionName, setShowDivisionName] = useState(false);
@@ -52,7 +52,7 @@ const SpecializationBar = () => {
                   </span>
                 </div>
 
-                <div className="w-full h-2.5 mt-1 bg-pink-400/30 rounded-full ">
+                <div className="w-full h-2.5 mt-1 bg-pink-400/30 rounded-full md:overflow-hidden">
                   <div
                     className={`h-full duration-[2000ms] bg-gradient-to-r ${
                       progress[Category.division] || "w-[0%]"

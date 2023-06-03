@@ -7,7 +7,7 @@ function App() {
     "w-full",
     "h-auto",
     "bg-pink-200/50",
-    "overflow-x-clip"
+    "overflow-x-hidden"
   );
   return (
     <>
