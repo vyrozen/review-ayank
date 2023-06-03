@@ -40,7 +40,7 @@ const SpecializationBar = () => {
     <InView onChange={(inView) => setInView(inView)}>
       {({ ref }) => (
         <div ref={ref}>
-          <div className="w-full mx-auto">
+          <div className="w-full mx-auto ">
             {specializationCategory.map((Category, key) => (
               <div className="py-2 text-base" key={key}>
                 <div className="flex justify-between items-center">
