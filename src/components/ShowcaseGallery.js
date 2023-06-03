@@ -31,7 +31,7 @@ const ShowcaseGallery = () => {
         {GalleryList.map((cardOrder, key) => (
           <div
             key={key}
-            className="flex flex-col w-full h-96 bg-gradient-to-tr from-rose-300/40 to-rose-300/90 my-5 pb-1 rounded-xl shadow-xl"
+            className="group flex flex-col w-full h-96 bg-gradient-to-tr from-rose-300/40 to-rose-300/90 mt-3 mb-10 pb-1 rounded-xl shadow-xl duration-100 hover:scale-105"
           >
             <div className="w-10/12 h-[200px] mx-auto mt-6 bg-gradient-to-tr from-rose-300/60 to-rose-300/30 rounded-lg overflow-hidden drop-shadow-xl">
               <img
@@ -40,11 +40,13 @@ const ShowcaseGallery = () => {
                 alt={cardOrder.alt}
               ></img>
             </div>
-            <div className="w-10/12 max-h-44 mx-auto my-3 overflow-y-scroll ">
+            <div className="w-10/12 mx-auto my-3 ">
               <h1 className="text-bold text-lg font-bold ">
                 {cardOrder.heading}
               </h1>
-              <p className="font-thin ">{cardOrder.description}</p>
+              <div className="w-full h-32 max-h-32 overflow-y-scroll ">
+                <p className="font-thin ">{cardOrder.description}</p>
+              </div>
             </div>
           </div>
         ))}
