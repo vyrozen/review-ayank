@@ -59,7 +59,7 @@ const Mainpage = () => {
                   bapaknya <span className="font-semibold">Agus Cahyadi</span>,
                   Deswin manggil bapaknya dengan panggilan{" "}
                   <span className="text-highlight">Ayah.</span> Sedangkan ibunya
-                  bernama <span className="text-highlight">Ade Norma,</span>{" "}
+                  bernama <span className="font-semibold">Ade Norma</span>, 
                   Deswin manggil ibunya pake sebutan{" "}
                   <span className="text-highlight">Mama.</span>
                   <br></br> Deswin sekolah SD di{" "}
