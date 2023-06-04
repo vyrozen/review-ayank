@@ -9,7 +9,7 @@ import Footer from "./Footer";
 const Mainpage = () => {
   return (
     <div className="container ip678p:my-3 m-auto my-9 h-5/6 rounded-2xl scroll-smooth">
-      <div className="hidden" id="debug-media">
+      <div className="" id="debug-media">
         <div className="hidden ip678p:block">ip678p</div>
         <div className="hidden sm:block">SM</div>
         <div className="hidden md:block">MD</div>
@@ -36,7 +36,7 @@ const Mainpage = () => {
       <div className="w-full h-auto py-5 lg:py-0 lg:pb-5 overflow-hidden px-5">
         <div id="first-wrapper" className="lg:flex">
           <div className="lg:flex-1">
-            <div className="mb-9 h-96 w-9/12 ip678p:h-[30rem] sm:h-[48rem] md:h-[54rem] lg:h-[52rem] mx-auto rounded-full overflow-hidden drop-shadow-xl bg-cover border bg-[url(images/main-char-img.jpg)] transition-all duration-700 ease-in-out hover:bg-[url(images/main-char-hover.jpg)]"></div>
+            <div className="mb-9 h-96 w-10/12 ip678p:h-[30rem] sm:h-[48rem] md:h-[54rem] lg:h-[52rem] mx-auto rounded-full overflow-hidden drop-shadow-xl bg-cover border bg-[url(images/main-char-img.jpg)] transition-all duration-700 ease-in-out hover:bg-[url(images/main-char-hover.jpg)]"></div>
           </div>
           {/* <hr></hr> */}
           <div className="lg:flex-1 lg:flex lg:flex-col lg:justify-center">
