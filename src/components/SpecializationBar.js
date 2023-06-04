@@ -8,7 +8,7 @@ const SpecializationBar = () => {
     { division: "Makeup", percentage: "92%", classPercent: "w-[92%]" },
     { division: "Appearance", percentage: "100%", classPercent: "w-[100%]" },
     { division: "Speech", percentage: "93%", classPercent: "w-[93%]" },
-    { division: "Social", percentage: "89%", classPercent: "w-[89%]" },
+    { division: "Social", percentage: "96%", classPercent: "w-[96%]" },
     {
       division: "Cuteness",
       percentage: "999%",
