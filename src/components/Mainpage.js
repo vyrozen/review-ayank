@@ -9,7 +9,7 @@ import Footer from "./Footer";
 const Mainpage = () => {
   return (
     <div className="container ip678p:my-3 m-auto my-9 h-5/6 rounded-2xl scroll-smooth">
-      <div className="" id="debug-media">
+      <div className="hidden" id="debug-media">
         <div className="hidden ip678p:block">ip678p</div>
         <div className="hidden sm:block">SM</div>
         <div className="hidden md:block">MD</div>
