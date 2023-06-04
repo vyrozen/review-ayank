@@ -103,8 +103,8 @@ const Mainpage = () => {
             </Fade>
 
             <Fade>
-              <div className="px-6 py-5 ">
-                <h1 className="font-semibold text-lg ">Specialization</h1>
+              <div className="px-6 py-5">
+                <h1 className="font-semibold text-lg">Specialization</h1>
                 <SpecializationBar />
               </div>
             </Fade>

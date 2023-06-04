@@ -32,16 +32,16 @@ const ShowcaseGallery = () => {
           <>
             <div
               key={key}
-              className="flex flex-col w-full sm:w-[20.5rem] lg:w-96 h-[28rem] bg-gradient-to-tr from-rose-300/40 to-rose-300/90 mt-3 mb-10 pb-1 rounded-xl shadow-xl duration-100 hover:scale-105 "
+              className="group flex flex-col w-full sm:w-[20.5rem] lg:w-96 h-[28rem] bg-gradient-to-tr from-rose-300/40 to-rose-300/90 hover:bg-gradient-to-br hover:from-rose-400/30 hover:to-rose-400/80 mt-3 mb-10 pb-1 rounded-xl shadow-xl duration-100 hover:scale-105 "
             >
               <div className="w-10/12 flex-1 min-h-[200px] max-h-[200px] mx-auto mt-6 bg-gradient-to-tr from-rose-300/60 to-rose-300/30 rounded-lg overflow-hidden drop-shadow-xl">
                 <img
                   src={cardOrder.src}
-                  className="object-cover w-full h-full"
+                  className="object-cover w-full h-full group-hover:scale-110 duration-300"
                   alt={cardOrder.alt}
                 ></img>
               </div>
-              <div className="w-10/12 mx-auto font-bold pb-2 pt-1">
+              <div className="w-10/12 mx-auto font-bold pb-1 pt-1">
                 <h1>{cardOrder.heading}</h1>
               </div>
               <div className="w-10/12 mx-auto flex-1 overflow-y-auto mb-3">
