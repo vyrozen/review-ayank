@@ -1,6 +1,7 @@
 import "../App.css";
 import { useState, useEffect } from "react";
 import { InView } from "react-intersection-observer";
+// broken on LG Screen
 
 const SpecializationBar = () => {
   const [specializationCategory, setSpecializationCategory] = useState([
@@ -11,7 +12,8 @@ const SpecializationBar = () => {
     {
       division: "Cuteness",
       percentage: "999%",
-      classPercent: "ip678p:w-[999px] md:w-[9999px]",
+      classPercent:
+        "ip678p:w-[999px] sm:w-[9999px] lg:w-[100%] lg:duration-100 lg:to-pink-800",
     },
   ]);
 
@@ -40,7 +42,7 @@ const SpecializationBar = () => {
     <InView onChange={(inView) => setInView(inView)}>
       {({ ref }) => (
         <div ref={ref}>
-          <div className="w-full mx-auto ">
+          <div className="w-full mx-auto">
             {specializationCategory.map((Category, key) => (
               <div className="py-2 text-base" key={key}>
                 <div className="flex justify-between items-center">
@@ -56,11 +58,11 @@ const SpecializationBar = () => {
                   </span>
                 </div>
 
-                <div className="w-full h-2.5 mt-1 bg-pink-400/30 rounded-full overflow-hidden">
+                <div className="w-full h-2.5 mt-1 bg-pink-400/30 rounded-full overflow-clip">
                   <div
-                    className={`h-full duration-[2000ms] bg-gradient-to-r ${
+                    className={`h-full duration-[2000ms] ${
                       progress[Category.division] || "w-[0%]"
-                    } from-pink-800 to-pink-400 rounded-full`}
+                    } bg-gradient-to-r from-pink-800 to-pink-400 rounded-full`}
                   ></div>
                 </div>
               </div>
