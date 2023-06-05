@@ -28,8 +28,8 @@ const GalleryList = [
       "Foto Studio Deswin saat wisuda perpisahan SMAN 1 Kota Serang, Deswin ngelakuin semua Makeup-nya secara mandiri.",
   },
   {
-    heading: "Lorem Ipsum",
-    alt: "Ini adalah deskripsi gambar 1",
+    heading: "Deswin's Bromo Self Portrait",
+    alt: "Foto Deswin waktu di Bromo",
     src1: Showcase3a,
     src2: Showcase3b,
     isHoverChange: true,
