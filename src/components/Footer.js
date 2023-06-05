@@ -8,14 +8,17 @@ const Footer = () => {
     {
       logo: InstagramLogo,
       href: "https://instagram.com/deswindr",
+      alt: "Direct you to Instagram",
     },
     {
       logo: GithubLogo,
       href: "https://github.com/vyrozen",
+      alt: "Direct you to Github",
     },
     {
       logo: SpotifyLogo,
       href: "https://open.spotify.com/playlist/5ehun5JdpJQoh0MwsfEcnb?si=8b0bbfba163f44f7",
+      alt: "Direct you to Spotify Playlist",
     },
   ];
   return (
@@ -25,7 +28,7 @@ const Footer = () => {
           {FooterIcons.map((IconsValue, key) => (
             <div className="w-[18px] h-[18px]" key={key}>
               <a href={IconsValue.href}>
-                <img src={IconsValue.logo}></img>
+                <img src={IconsValue.logo} alt={IconsValue.alt}></img>
               </a>
             </div>
           ))}
@@ -37,6 +40,7 @@ const Footer = () => {
               <img
                 src={PixelHeart}
                 className="self-center items-center w-4 h-4"
+                alt="Heart logo"
               ></img>
             </span>{" "}
             by vyrozen

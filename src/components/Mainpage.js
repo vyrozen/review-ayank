@@ -18,8 +18,8 @@ const Mainpage = () => {
         <div className="hidden 2xl:block">2XL</div>
       </div>
       <div className="hidden" id="Preloader">
-        <img src={MainChar} />
-        <img src={MainCharHover} />
+        <img alt="" src={MainChar} />
+        <img alt="" src={MainCharHover} />
       </div>
       <div className="w-fit mx-auto select-none">
         <h1 className="font-inter text-5xl font-bold py-5 lg:py-3 text-center selection:bg-none">
@@ -59,7 +59,7 @@ const Mainpage = () => {
                   bapaknya <span className="font-semibold">Agus Cahyadi</span>,
                   Deswin manggil bapaknya dengan panggilan{" "}
                   <span className="text-highlight">Ayah.</span> Sedangkan ibunya
-                  bernama <span className="text-highlight">Ade Norma,</span>{" "}
+                  bernama <span className="font-semibold">Ade Norma</span>,
                   Deswin manggil ibunya pake sebutan{" "}
                   <span className="text-highlight">Mama.</span>
                   <br></br> Deswin sekolah SD di{" "}
