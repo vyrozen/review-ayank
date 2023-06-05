@@ -4,13 +4,16 @@ import Showcase1b from "../images/showcase-1b.jpg";
 import Showcase2 from "../images/showcase-2.jpg";
 import Showcase3a from "../images/showcase-3a.jpg";
 import Showcase3b from "../images/showcase-3b.jpg";
+import Showcase4 from "../images/showcase-4.jpg";
+import Showcase5 from "../images/showcase-5.jpg";
+import Showcase6 from "../images/showcase-6.jpg";
 
 const GalleryList = [
   {
     heading: "Graduation Makeup Artist",
     alt: "Foto Ziane sama Intan after makeup",
-    src1: Showcase1a,
-    src2: Showcase1b,
+    src1: Showcase1b,
+    src2: Showcase1a,
     isVideo: false,
     isHoverChange: true,
     hasDescription: true,
@@ -28,7 +31,7 @@ const GalleryList = [
       "Foto Studio Deswin saat wisuda perpisahan SMAN 1 Kota Serang, Deswin ngelakuin semua Makeup-nya secara mandiri.",
   },
   {
-    heading: "Deswin's Bromo Self Portrait",
+    heading: "Deswin Bromo Self Portrait",
     alt: "Foto Deswin waktu di Bromo",
     src1: Showcase3a,
     src2: Showcase3b,
@@ -37,6 +40,33 @@ const GalleryList = [
     hasDescription: true,
     description:
       "Foto Deswin waktu lagi study campus, ini waktu lagi di Bromo.",
+  },
+  {
+    heading: "",
+    alt: "Foto portrait Zaki Deswin",
+    src: Showcase4,
+    isVideo: false,
+    isHoverChange: false,
+    hasDescription: false,
+    description: "",
+  },
+  {
+    heading: "",
+    alt: "Foto Deswin",
+    src: Showcase5,
+    isVideo: false,
+    isHoverChange: false,
+    hasDescription: false,
+    description: "",
+  },
+  {
+    heading: "",
+    alt: "Foto Deswin",
+    src: Showcase6,
+    isVideo: false,
+    isHoverChange: false,
+    hasDescription: false,
+    description: "",
   },
 ];
 
